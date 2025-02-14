@@ -8,10 +8,22 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/src/images/favicons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/src/images/favicons/favicon-16x16.png">
 	<!--Favicons-->
+	<!--Fonts Google-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<!--Fonts Google-->
 	<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="src/js/head.js"></script>
 	<title>Drew Studio</title>
+
+	<style>
+		*{
+			font-family: "Montserrat", serif;
+		}
+	</style>
+
 </head>
 <body>
 		<!--Inicio da NavBar-->
@@ -22,7 +34,7 @@
 					<img src="src/images/logo/logo-dark.svg" class="hidden dark:block w-32 h-auto" alt="Drew Logo">
 			</a>
 			<div class="flex md:order-2 space-x-3 md:space-x-1 rtl:space-x-reverse">
-					<button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contatar</button>
+					<a href="#contact" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contatar</a>
 					<!-- Botão de Dark/Light-->
 					<button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
 						<svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
@@ -507,7 +519,7 @@
 			</section>
 		<!--Fim PricingSection-->
 		<!--Inicio ContantFormSection-->
-			<section class="bg-white dark:bg-gray-900">
+			<section id="contact" class="bg-white dark:bg-gray-900">
 				<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
 						<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
 							Entre em contato
